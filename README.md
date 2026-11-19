@@ -23,6 +23,15 @@ End-to-end exploratory analysis of City Hotel and Resort Hotel booking data. The
 ## Key insights
 The dataset-derived headline insights after exact duplicate removal are:
 
+
+- Guests are mostly European: Portugal, UK, France, Spain and Germany make up ~68% of non-cancelled bookings.
+- City Hotel earns more per night (~€109 vs ~€93 ADR) but also has a higher cancellation rate (30% vs 23%).
+- Resort pricing is strongly seasonal: ADR rises from ~€49 in winter to ~€182 in August; City Hotel pricing is much flatter.
+- July and August are the busiest months for both hotels; Resort demand is sharply peaked, City demand is a broad Mar–Aug plateau.
+- Online travel agents bring ~53% of bookings, and ~70% come through intermediaries overall; Direct and Online TA also pay the highest ADR.
+- Special requests signal commitment: cancellation rate falls from ~33% (no requests) to ~6% (5 requests).
+- Stays: City Hotel guests stay ~3 nights on average; Resort stays are longer with peaks at 7 and 14 nights. BB meals dominate (~79%), with more Half Board at the - Resort and more no-meal (SC) at the City Hotel.
+
 - Non-cancelled booking volume is larger for City Hotel (37,379 vs 25,992 bookings).
 - Average non-cancelled ADR: City Hotel 108.28; Resort Hotel 92.97 (ADR is dataset currency, not inferred).
 - The leading origin country is PRT (17,662 non-cancelled booking records).
